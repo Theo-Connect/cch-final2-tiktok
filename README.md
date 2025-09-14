@@ -95,7 +95,9 @@ lib/
 2. **Firebase 설정**
    - Firebase 프로젝트 생성
    - Android/iOS 앱 등록
+   - `lib/firebase_options.dart.example`을 `lib/firebase_options.dart`로 복사하고 실제 값으로 수정
    - `google-services.json` (Android) 및 `GoogleService-Info.plist` (iOS) 파일 추가
+   - 또는 FlutterFire CLI 사용: `flutterfire configure`
 
 3. **앱 실행**
    ```bash
